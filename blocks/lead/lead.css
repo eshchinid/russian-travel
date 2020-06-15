@@ -1,0 +1,12 @@
+@import url("./__caption/lead__caption.css");
+@import url("./__main-illustration/lead__main-illustration.css");
+@import url("./__subtitle/lead__subtitle.css");
+@import url("./__title/lead__title.css");
+.lead {
+    width: 100%;
+    min-width: 320px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, min-content);
+}

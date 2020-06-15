@@ -1,0 +1,19 @@
+@import url("./__stats/intro__stats.css");
+@import url("./__stat/intro_stat.css");
+@import url("./__title/intro__title.css");
+@import url("./__text/intro__text.css");
+
+.intro {
+    margin: 92px 0 auto 4.5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, min-content);
+}
+
+@media screen and (max-width: 320px), (max-width: 440px), (max-width: 500px) {
+    .intro {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, min-content);
+        margin: 64px 4.5% auto 4.5%;
+    }
+}

@@ -1,0 +1,33 @@
+.footer__column {
+    margin: 0;
+}
+
+@media screen and (max-width: 320px), (max-width: 440px), (max-width: 500px) {
+    .footer{
+        grid-gap: 48px;
+        margin: 64px 4.5% 24px;
+    }
+    .footer__column-links{
+        flex-direction: column;
+        margin: 0;
+    }
+    .footer__column-link{
+        margin-bottom: 32px;
+        max-width: 74px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .footer__column-link:last-child{
+        margin-bottom: 0;
+    }
+    .footer__author{
+        text-align: start;
+        margin: 0;
+        padding-bottom: 24px;
+        max-width: 186px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
