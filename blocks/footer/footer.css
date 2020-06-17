@@ -6,15 +6,15 @@
 
 .footer {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, min-content));
-    margin: 92px auto 24px;
+    grid-template-columns: repeat(auto-fit, 50%);
+    margin: 92px auto auto;
+    padding-bottom: 18px;
     max-width: 1184px;
-    min-width: 320px;
     width: 100%;
-    justify-content: space-between;
 }
 
-@media screen and (max-width: 320px), (max-width: 440px), (max-width: 500px) {
+
+@media screen and (max-width: 680px) {
     .footer{
         grid-gap: 48px;
         margin: 64px 4.5% 24px;

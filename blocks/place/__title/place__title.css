@@ -9,12 +9,20 @@
     margin: 0;
 }
 
-@media screen and (max-width: 320px), (max-width: 440px), (max-width: 500px) {
+
+@media screen and (max-width: 960px) {
+    .place__title {
+        margin: auto 4.5% auto;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 440px) {
     .place__title {
         margin: auto 4.5% auto;
         max-width: 288px;
         font-style: normal;
-        font-weight: 900;
         font-size: 32px;
         line-height: 35px;
     }

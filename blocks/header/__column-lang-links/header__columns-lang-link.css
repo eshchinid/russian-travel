@@ -1,5 +1,6 @@
-.header__columns-lang-link {
+.header__column-lang-links {
     display: flex;
     flex-direction: row;
     justify-content: end;
+    padding-right: 4.5%;
 }

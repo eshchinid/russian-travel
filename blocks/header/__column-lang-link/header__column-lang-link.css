@@ -1,12 +1,7 @@
 .header__column-lang-link {
     list-style-type: none;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
 }
 
 .header__column-lang-link:nth-child(1) {
-    text-decoration-line: underline;
     margin-right: 18px;
 }

@@ -7,9 +7,21 @@
     text-align: right;
 }
 
-@media screen and (max-width: 320px), (max-width: 440px), (max-width: 500px) {
+
+@media screen and (max-width: 1215px) {
+    .footer__author{
+        padding-right: 4.5%;
+    }
+}
+
+@media screen and (max-width: 639px) {
     .footer__author{
         text-align: start;
+    }
+}
+
+    @media screen and (max-width: 680px) {
+    .footer__author{
         margin: 0;
         padding-bottom: 24px;
         max-width: 186px;
