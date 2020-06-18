@@ -44,22 +44,12 @@
 }
 @media screen and (max-width: 640px) {
     .photo-grid{
-        grid-template-columns: repeat(auto-fit, minmax(100px, 288px));
+        grid-template-columns: repeat(auto-fit, 288px);
+        /*margin: auto;*/
         /*grid-gap: 14px;*/
     }
 }
 
-@media screen and (max-width: 320px) {
-    .photo-grid{
-        margin-right: 4.5%;
-        margin-left: 4.5%;
-    }
-}
 
-/*@media screen and (max-width: 670px) {*/
-/*    .photo-grid{*/
-/*        grid-template-columns: repeat(auto-fit, 310px);*/
-/*        grid-gap: 16px;*/
-/*    }*/
-/*}*/
+
 

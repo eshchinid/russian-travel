@@ -1,5 +1,5 @@
 @import url("./__stats/intro__stats.css");
-@import url("./__stat/intro_stat.css");
+@import url("__stat/intro__stat.css");
 @import url("./__title/intro__title.css");
 @import url("./__text/intro__text.css");
 
@@ -22,15 +22,11 @@
 @media screen and (max-width: 768px) {
     .intro {
         margin-top: 88px;
-        margin-right: 4.5%;
-        margin-left: 4.5%;
     }
 }
 
 @media screen and (max-width: 500px) {
     .intro {
         margin-top: 64px;
-        margin-right: 4.5%;
-        margin-left: 4.5%;
     }
 }

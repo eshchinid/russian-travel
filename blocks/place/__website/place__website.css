@@ -1,5 +1,4 @@
 @import url("_link/place__website_link.css");
-@import url("_url/place__website_url.css");
 @import url("_url-heading/place__website_url-heading.css");
 
 .place__website {
@@ -10,7 +9,6 @@
 
 @media screen and (max-width: 960px) {
     .place__website {
-        /*margin-right: 4.5%;*/
         margin-left: 4.5%;
     }
 }

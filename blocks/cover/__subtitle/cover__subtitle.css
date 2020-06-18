@@ -15,7 +15,7 @@
 }
 @media screen and (max-width:768px ) {
     .cover__subtitle{
-        margin:  32px auto 115px;
+        margin-bottom: 115px;
     }
 }
 @media screen and (max-width: 610px) {

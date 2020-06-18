@@ -1,7 +1,7 @@
 @import url("./__image/place__image.css");
 @import url("./__title/place__title.css");
 @import url("__paragraph/place__paragraph.css");
-@import url("__website/website.css");
+@import url("__website/place__website.css");
 
 .place {
     display: grid;
@@ -33,7 +33,6 @@
 @media screen and (max-width:740px){
     .place{
         grid-template-columns: repeat(auto-fit, 330px);
-        grid-gap: 28px 3%;
     }
 }
 

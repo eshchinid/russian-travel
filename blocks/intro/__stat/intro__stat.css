@@ -1,3 +1,5 @@
+@import url("./_numb/intro__stat_numb.css");
+
 .intro__stat {
     margin: 0;
     font-family: Inter, serif;
@@ -7,6 +9,5 @@
     line-height: 18px;
     list-style-type: none;
     text-align: left;
-    max-width: 288px;
 }
 

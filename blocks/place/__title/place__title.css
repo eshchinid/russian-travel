@@ -1,6 +1,6 @@
 .place__title {
     font-style: normal;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     color: #FFFFFF;
@@ -20,9 +20,7 @@
 
 @media screen and (max-width: 440px) {
     .place__title {
-        margin: auto 4.5% auto;
         max-width: 288px;
-        font-style: normal;
         font-size: 32px;
         line-height: 35px;
     }

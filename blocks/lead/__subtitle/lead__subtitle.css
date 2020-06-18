@@ -23,7 +23,6 @@
 @media screen and (max-width: 440px) {
     .lead__subtitle {
         font-size: 20px;
-        line-height: 30px;
         max-width: 380px;
     }
 }
@@ -32,7 +31,6 @@
     .lead__subtitle {
         font-size: 18px;
         line-height: 25px;
-        max-width: 380px;
     }
 }
 

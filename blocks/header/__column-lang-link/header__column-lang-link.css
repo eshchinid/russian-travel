@@ -1,7 +1,8 @@
 .header__column-lang-link {
     list-style-type: none;
+    margin-right: 18px;
 }
 
-.header__column-lang-link:nth-child(1) {
-    margin-right: 18px;
+.header__column-lang-link:nth-last-child(1) {
+    margin-right: 0;
 }

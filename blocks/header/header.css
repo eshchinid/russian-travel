@@ -2,11 +2,12 @@
 @import url("./__column-lang-link/header__column-lang-link.css");
 @import url("__column-lang-links/header__columns-lang-link.css");
 @import url("__link/header__link.css");
+@import url("./__link/_active/header__link_active.css");
 
 .header {
     display: flex;
     margin: 0 auto 56px;
-    padding-top: 28px;
-    max-width: 1184px;
+    padding: 28px 4.5% 0 4.5%;
+    max-width: calc(1184px + 4.5%);
     justify-content: space-between;
 }
