@@ -5,6 +5,56 @@
     object-fit: cover;
 }
 
+
+/*1024 (разница не более чем в 30px)
+figma -	928x580
+project - 	908x565
+
+768 (разница не более чем в 30px)
+figma - 	768x480
+project -	752x468
+
+320 (разница не более чем в 30px)
+figma - 	320x200
+project -	320x192
+*/
+
+@media screen and (max-width: 1100px) {
+    .lead__main-illustration{
+        max-width: calc(968px - 6%);
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .lead__main-illustration{
+        max-width: calc(968px - 18%);
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .lead__main-illustration{
+        max-width: calc(968px - 28%);
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .lead__main-illustration{
+        max-width: calc(968px - 24%);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .lead__main-illustration{
+        max-width: calc(968px - 28%);
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .lead__main-illustration{
+        max-width: 100%;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .lead__main-illustration {
         padding-top: 40px;

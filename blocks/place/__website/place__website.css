@@ -1,5 +1,5 @@
-@import url("_link/place__website_link.css");
-@import url("_url-heading/place__website_url-heading.css");
+@import url("../__link/place__link.css");
+@import url("../__url-heading/place__url-heading.css");
 
 .place__website {
     display: flex;
@@ -12,7 +12,6 @@
         margin-left: 4.5%;
     }
 }
-
 
 @media screen and (max-width: 680px) {
     .place__website {

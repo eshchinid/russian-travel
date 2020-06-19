@@ -1,8 +1,8 @@
-@import url("./_numb/intro__stat_numb.css");
+@import url("../__numb/intro__numb.css");
 
 .intro__stat {
     margin: 0;
-    font-family: Inter, serif;
+    font-family: Inter, "Arial", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
